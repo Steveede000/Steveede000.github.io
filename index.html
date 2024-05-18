@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eden Steve's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Eden Steve's Portfolio</h1>
+        <button id="theme-toggle">Toggle Theme</button>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Eden Steve's, a passionate individual with a love for creating and showcasing my work. Welcome to my personal portfolio where you can explore my projects and get to know more about me.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <div>                    
+                    <img src="BlenderExample.png" alt="Project 1" class="pop-out">
+                    <h3>Blender</h3>
+                    <button class="toggle-description">Show Description</button>
+                    <p class="description">In my personal time, I enjoy exploring creative tools such as Blender, Photoshop, and CAD.</p>
+                </div>
+                <div>
+                    <img src="LiquidWallpaper.png" alt="Project 2" class="pop-out">
+                    <h3>Krita</h3>
+                    <button class="toggle-description">Show Description</button>
+                    <p class="description">Continuing my enjoyment of creativity, I like to create solutions to problems I create. This is a wallpaper I made in Krita, the sole reason I made this is because I couldn't find a wallpaper of its nature in a high enough resolution and color scheme. So I did it myself.</p>
+                </div>
+                <div>
+                    <img src="PCBuild.JPG" alt="Project 3" class="pop-out">
+                    <h3>PC Build</h3>
+                    <button class="toggle-description">Show Description</button>
+                    <p class="description">I have never owned a pre-build computer, except for laptops of course. I have only ever built my own desktop computers. I don't think there is anything wrong with prebuilds, but I enjoy the build process and nerding out over specs, so I'll continue building PC's in the future.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to email me <a href="mailto:steveede000@gmail.com">Here</a>.</p>
+        </section>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Eden Steve's. All rights reserved.</p>
+    </div>
+
+    <!-- Modal for Image Pop-out -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
