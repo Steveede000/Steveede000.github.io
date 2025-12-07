@@ -40,8 +40,13 @@ nav {
     justify-content: center;
     background-color: #d8c3a4;
     border-radius: 10px;
-    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto 20px; 
+    padding: 0 10px;       
+    /* width: 100%; */
 }
+
+nav {}
 nav a {
     color: #e85a4f;
     text-decoration: none;
