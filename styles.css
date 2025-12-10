@@ -77,11 +77,11 @@ section h2 {
 }
 .portfolio-item div {
     background-color: #d8c3a4;
-    padding: 15px;
+    padding: 12px;
     border: 1px solid #e88073;
     flex: 1 1 calc(33.333% - 40px);
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 22px;
     transition: transform 0.1s ease /* Smooth transition for scaling */
 }
 .portfolio-item div:hover {
@@ -90,7 +90,7 @@ section h2 {
 .portfolio-item img, .portfolio-item video {
     max-width: 100%;
     height: auto;
-    border-radius: 6px;
+    border-radius: 10px;
     cursor: pointer; /* Make images clickable */
 }
 .description {
