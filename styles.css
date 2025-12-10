@@ -74,6 +74,7 @@ section h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: flex-start;
 }
 .portfolio-item div {
     background-color: #d8c3a4;
@@ -263,3 +264,4 @@ body.dark-theme #theme-toggle:hover {
 .modal.hide .modal-content {
     animation: popOut 0.4s forwards;
 }
+
