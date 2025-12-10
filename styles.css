@@ -116,7 +116,7 @@ section h2 {
     right: 10px;
     background-color: rgba(216, 195, 165, 0.151); /* Slightly transparent background */
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 0.8em;
     color: #e85a4f;
     backdrop-filter: blur(2px);
