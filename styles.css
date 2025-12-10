@@ -85,11 +85,12 @@ section h2 {
     transition: transform 0.1s ease /* Smooth transition for scaling */
 }
 .portfolio-item div:hover {
-    transform: scale(1.05); /* Slightly increase size on hover */
+    transform: scale(1.02); /* Slightly increase size on hover */
 }
 .portfolio-item img, .portfolio-item video {
     max-width: 100%;
-    height: auto;
+    aspect-ratio: 1/1; /* Makes the images all the same ratio. */
+    object-fit: cover;
     border-radius: 10px;
     cursor: pointer; /* Make images clickable */
 }
