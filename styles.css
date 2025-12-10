@@ -43,7 +43,6 @@ nav {
     max-width: 1200px;
     margin: 0 auto 20px; 
     padding: 0 10px;       
-    /* width: 100%; */
 }
 
 nav {}
@@ -96,17 +95,16 @@ section h2 {
     cursor: pointer; /* Make images clickable */
 }
 .description {
-    display: none; /* Hide descriptions by default */
-    margin-top: 10px; /* Add some space above the description */
+    display: none;
+    margin-top: 10px;
 }
 .toggle-description {
     display: block;
-    margin: 10px 0;
     background-color: #e85a4f;
     color: #fff;
     border: none;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 12px;
     cursor: pointer;
 }
 .toggle-description:hover {
