@@ -26,7 +26,7 @@ header h1 {
     background-color: #d8c3a498;
     color: #e85a4f;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 1em;
     backdrop-filter: blur(2px);
@@ -183,7 +183,7 @@ body.dark-theme nav a:hover {
 body.dark-theme #theme-toggle {
     background-color: #555;
     color: #eae7dc;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur (2px); 
 }
 body.dark-theme #theme-toggle:hover {
     background-color: #777;
